@@ -57,6 +57,14 @@ void SFMLGame::SetWindowTitleBar(const sf::String & TitleBarText)
 	Window->setTitle(WindowTitleBar);
 }
 
+sf::Vector2i SFMLGame::GetWindowPosition()
+{
+	return Window->getPosition();
+}
+
+
+
+
 bool SFMLGame::GetVisibleMouseCursorStatus()
 {
 	return VisibleMouseCursor;
@@ -149,6 +157,10 @@ void SFMLGame::HandleEvents()
 		if (event.type == sf::Event::Closed)
 		{
 			Window->close();
+		}
+		else if (event.type == sf::Event::Resized)
+		{
+			SetScreenResolution(1280, 720);
 		}
 	}
 }

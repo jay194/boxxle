@@ -20,6 +20,9 @@ public:
 	void SetWindowStyle(int sfStyleStatus);
 	bool GetWindowFullScreenStatus();
 	bool GetWindowTitlebarStatus();
+	sf::Vector2i GetWindowPosition();
+
+
 
 	// Frame rate functionality
 	int  GetFrameRate();

@@ -1,21 +1,48 @@
-﻿  Source.cpp
+﻿  BackGroundImage.cpp
+  Box.cpp
+  FirstImage.cpp
+  Goal.cpp
   Hero.cpp
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(74): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(90): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(95): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\sfmlobject.h(138): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(22): note: see reference to function template instantiation 'bool SFMLObject::PlaceMeeting<Box*>(int,int)' being compiled
-c:\users\jay\desktop\sfmltemplate2\sfmltemplate\sfmlobject.h(145): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  c:\users\jay\desktop\sfmltemplate2\sfmltemplate\hero.cpp(27): note: see reference to function template instantiation 'SFMLObject *SFMLObject::InstancePlace<Box*>(int,int)' being compiled
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(74): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(90): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(95): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\sfmlobject.h(138): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(22): note: see reference to function template instantiation 'bool SFMLObject::PlaceMeeting<Box*>(int,int)' being compiled
+c:\users\jayp3\desktop\boxxle\sfmltemplate\sfmlobject.h(145): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  c:\users\jayp3\desktop\boxxle\sfmltemplate\hero.cpp(27): note: see reference to function template instantiation 'SFMLObject *SFMLObject::InstancePlace<Box*>(int,int)' being compiled
+  LevelOneRoom.cpp
+  LevelThreeRoom.cpp
+  LevelTwoRoom.cpp
+  lvlBackGroundImage.cpp
+  MainMenuRoom.cpp
+  NextBackGroundImage.cpp
+  NextLevelRoom.cpp
+  SFMLButton.cpp
+  SFMLFont.cpp
+c:\users\jayp3\desktop\boxxle\sfmltemplate\sfmlfont.cpp(35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\sfmlfont.cpp(36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SFMLGame.cpp
+  SFMLKeyboard.cpp
+  SFMLMouse.cpp
+  SFMLObject.cpp
+c:\users\jayp3\desktop\boxxle\sfmltemplate\sfmlobject.cpp(438): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\jayp3\desktop\boxxle\sfmltemplate\sfmlobject.cpp(437): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SFMLRoom.cpp
+c:\users\jayp3\desktop\boxxle\sfmltemplate\sfmlroom.cpp(41): warning C4018: '>=': signed/unsigned mismatch
+  SFMLTextureManager.cpp
   Generating Code...
-  SFMLTemplate.vcxproj -> C:\Users\jay\Desktop\SFMLTemplate2\Debug\SFMLTemplate.exe
-  SFMLTemplate.vcxproj -> C:\Users\jay\Desktop\SFMLTemplate2\Debug\SFMLTemplate.pdb (Partial PDB)
+  Compiling...
+  Source.cpp
+  TestRoom.cpp
+  Wall.cpp
+  Generating Code...
+  SFMLTemplate.vcxproj -> C:\Users\jayp3\Desktop\Boxxle\Debug\SFMLTemplate.exe
